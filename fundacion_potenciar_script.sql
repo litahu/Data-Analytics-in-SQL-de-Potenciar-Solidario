@@ -1,75 +1,134 @@
 /*
-Autora: Lita Hume
-Día: 11/11/2024
-Herramienta usada: MySQL Workbench
+Autor: Lita Hume
+Herramienta usada: MySql
 */
 
 /*
------------------------
-CREAR BASE DE DATOS
------------------------
+------------
+CREATE DATABASE
+------------
 */
--- drop database potenciar_ong;
--- Crea un esquema de base de datos
-CREATE SCHEMA potenciar_ong;
-USE potenciar_ong;
-
--- Crear tablas
-
--- Tabla "d_donante"
-CREATE TABLE `potenciar_ong`.`d_donante` (
-  `Donante_id` VARCHAR(12) NOT NULL,
-  `Nombre_del_donador` VARCHAR(45) NOT NULL,
-  `Tipo` VARCHAR(45) NOT NULL,
-  `Correo` VARCHAR(100) NOT NULL,
-  `Pais` VARCHAR(45) NOT NULL,
-  `Telefono` VARCHAR(45) NOT NULL,
-  PRIMARY KEY (`Donante_id`));
-
--- Tabla "d_impuesto"
-CREATE TABLE `potenciar_ong`.`d_impuesto` (
-  `Cuit_id` VARCHAR(45) NOT NULL,
-  `Razon_social` VARCHAR(12) NOT NULL,
-  `Tipo_de_contribuyente` VARCHAR(45) NOT NULL,
-  `Alta` DATE NOT NULL,
-  `Baja` DATE NOT NULL,
-  `Activo` VARCHAR(8) NOT NULL,
-  PRIMARY KEY (`Cuit_id`));
-
--- Tabla "d_importe"
-CREATE TABLE `potenciar_ong`.`d_importe` (
-  `Importe_id` VARCHAR(12) NOT NULL,
-  `Fecha_de_aporte` DATE NOT NULL,
-  `Registro_mensual` VARCHAR(12) NOT NULL,
-  `Importe` DECIMAL(8,1) NOT NULL,
-  PRIMARY KEY (`Importe_id`));
-
--- Tabla "f_gestion"
-CREATE TABLE `potenciar_ong`.`f_gestion` (
-  `Gestion_id` INT NOT NULL,
-  `Donante_id` VARCHAR(12) NULL,
-  `Cuenta_id` INT NULL,
-  `Importe_id` VARCHAR(12) NULL,
-  `Cuit_id` VARCHAR(45) NULL,
-  `Frecuencia` VARCHAR(12) NULL,
-  `Estado de aporte` VARCHAR(12) NULL,
-  PRIMARY KEY (`Gestion_id`));
-
--- Tabla "d_cuenta"
-CREATE TABLE `potenciar_ong`.`d_cuenta` (
-  `Cuenta_id` INT NOT NULL,
-  `Nombre_de_cuenta` VARCHAR(45) NOT NULL,
-  `Descripcion` VARCHAR(250) NOT NULL,
-  PRIMARY KEY (`Cuenta_id`));
-
-/*
--- después de crear la base de datos y la tabla,se encarga de importar el conjunto de datos
-	1. Seleccionar la tabla, siguiente
-    2. Haga clic en el icono de importar registro desde un archivo registro desde un archivo externo, junto
-    3. Seleccione el archivo para importar, siguiente
-    4. Verifique usar la tabla existente y truncar la tabla antes deimportar, asegúrese de que el nombre de la tabla
-		coincida, a continuación
-	5. Asegúrese de que los nombres de las columnas coincidan, a continuación
-    6. Haga clic en Siguiente en importar datos
+-- Create schema
+ CREATE DATABASE potenciar_solidario;
+ USE potenciar_solidario;
+ 
+ /*
+------------
+CREAR TABLAS
+------------
 */
+-- Create tablas: "tipo_donante"
+ CREATE TABLE tipo_donante(
+	Id_tipo      INT not null,
+    Tipo_donante TEXT not null,
+    PRIMARY KEY (Id_tipo)
+    );
+
+INSERT INTO tipo_donante(Id_tipo, Tipo_donante) 
+values
+	("1","Empresa"),
+    ("2","Estado"),
+    ("3","Campaña"),
+    ("4","ONG"),
+    ("5","Agroindustria"),
+    ("6","Tecnología");
+ 
+ 
+ 
+-- Create table: "razon_social"
+CREATE TABLE razon_social(
+	Id_razon_social INT not null,
+    Razon_social VARCHAR(12) not null,
+    PRIMARY KEY (Id_razon_social)
+    );
+
+INSERT INTO razon_social(Id_razon_social, Razon_social)
+VALUES
+	("1","SAS"),
+    ("2","SA"),
+    ("3","GOB"),
+    ("4","SRL"),
+    ("5","ONG"),
+    ("6","Cooperativa");
+
+
+
+-- Create table: "contribuyente"
+CREATE TABLE contribuyente(
+	Id_contribuyente INT not null,
+    Tipo_contribuyente VARCHAR(45) not null,
+    PRIMARY KEY (Id_contribuyente)
+    );
+
+INSERT INTO contribuyente(Id_contribuyente, Tipo_contribuyente)
+VALUES
+	("1","Monotributista"),
+    ("2","Exento"),
+    ("3","Responsable Inscripto");
+
+
+
+-- Create tablas: "estado_donante"
+ CREATE TABLE estado_donante(
+	Id_estado      INT not null, 
+    Estado_donante VARCHAR(12) not null,
+    PRIMARY KEY (Id_estado)
+    );
+
+INSERT INTO estado_donante(Id_estado, Estado_donante) 
+values
+	("1", "Activo"),
+    ("2", "Inactivo");
+    
+    
+    
+-- Create table: "Frecuencia"
+CREATE TABLE frecuencia(
+	Id_frecuencia INT not null,
+    Frecuencia VARCHAR(12) not null,
+    PRIMARY KEY (Id_frecuencia)
+    );
+    
+INSERT INTO frecuencia(Id_frecuencia, Frecuencia)
+VALUES
+	("1","Mensual"),
+    ("2","Bimestral"),
+    ("3","Trimestral"),
+    ("4","Semestral"),
+    ("5","Anual");
+
+
+
+-- Create table: "pais"
+CREATE TABLE pais(
+	Id_pais INT not null,
+    pais VARCHAR(12) not null,
+    PRIMARY KEY (Id_pais)
+	);
+
+INSERT INTO pais(Id_pais, pais)
+VALUES
+	("1","Argentina"),
+    ("2","Uruguay"),
+    ("3","Brasil"),
+    ("4","Paraguay"),
+    ("5","Chile"),
+    ("6","Colombia"),
+    ("7","Bolivia"),
+    ("8","México"),
+    ("9","Venezuela"),
+	("10","Perú");
+
+ /*
+ -- Despues de crear la base de datos y las tablas e importar el
+ conjunto de datos:
+ 1. Seleccionar tabla, siguiente
+ 2. Haga clic en el icono "importar" registros desde un archivo
+ externo, siguiente
+ 3. Seleccionar el fichero a importar, siguiente
+ 4. Marque usar tabla existente y truncar tabla antes de importar,
+ asegúrase de que el nombre de la tabla es apropiado, siguiente
+ 5. Asegúrese de que el nombre de la columna es apropiado, siguiente
+ 6. Haga clic en siguiente en importar datos
+ */
 
