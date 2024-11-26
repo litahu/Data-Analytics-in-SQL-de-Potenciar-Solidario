@@ -136,7 +136,7 @@ LIMIT 10;
 
 ## 📂 Visualización de datos
 
-Por lo tanto, es importante identificar a los donantes que presentan este tipo de problema y sus causas. En efecto, realicé un panel de control para la fundación de tal forma que la ONG establesca una estrategia de fidelización de donantes
+Por lo tanto, es importante identificar a los donantes que presentan este tipo de problema y sus causas. En efecto, realicé un panel de control para la fundación de tal forma que la ONG pueda establecer una estrategia para fidelizar a sus donantes.
 
 
 
