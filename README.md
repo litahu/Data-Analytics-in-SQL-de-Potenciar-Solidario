@@ -8,12 +8,14 @@ Certificado: Fundamentos de Datos - [Ver certificado]
 
 ## 📂 Comprensión empresarial
 
-**Descripción del problema** <br>
+**Descripción del problema** 
+
 Potenciar Solidario es una fundación sin ánimo de lucro que brinda cuatro proyectos sociales(potenciar rumbo, potenciar gestión, potenciar redes y potenciar dignidad) asequibles, integrales y de largo plazo. Uno de los problemas que presenta esta fundación es que los donantes se dan de baja o no son frecuentes con su aporte. Si la fundación experimenta este problema, tendrá que restringir sus actividades altruistas
 <br>
 
 **Meta** <br>
-Aumentar la captación de fondos a 45000000 por medio del refuerzo de su canal institucional(empresas y fundaciones) e individuos
+Aumentar la captación de fondos a $ 45 000000 por medio del refuerzo de su canal institucional(empresas y fundaciones) e individuos
+
 <br>
 
 **Objetivos del proyecto** <br> 
@@ -67,7 +69,7 @@ FROM f_egreso
 GROUP BY Year_fundation
 ORDER BY Year_fundation DESC;
 ```  
-    <br>
+
 </details>
 <br>
 
@@ -96,7 +98,7 @@ WHERE i.Importe < 379180 AND YEAR(i.Fecha) = 2024
 ORDER BY i.Importe
 LIMIT 10;
 ```  
-    <br>
+
 </details>
 <br>
 
@@ -123,7 +125,7 @@ ON  p.Id_proveedor= e.Id_proveedor
 WHERE e.Importe >(SELECT avg(Importe) FROM f_egreso	WHERE year(Fecha)= 2024)
 LIMIT 10;
 ```  
-    <br>
+
 </details>
 <br>
 
@@ -136,7 +138,7 @@ LIMIT 10;
 
 ## 📂 Visualización de datos
 
-Por lo tanto, es importante identificar a los donantes que presentan este tipo de problema y sus causas. Esto puede ser una medida preventiva para la fundación y garantizar una estrategia de fidelización de donantes
+Por lo tanto, es importante identificar a los donantes que presentan este tipo de problema y sus causas. En efecto, realicé un panel de control para la fundación de tal forma que la ONG establesca una estrategia de fidelización de donantes
 
 
 
