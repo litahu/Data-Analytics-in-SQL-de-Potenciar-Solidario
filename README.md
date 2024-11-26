@@ -17,8 +17,8 @@ Aumentar la captación de fondos a $ 45 000000 por medio del refuerzo de su cana
 <br>
 
 **Objetivos del proyecto** <br> 
-	- Analizar los datos en SQL
-	- Crear una visualización de captación de fondos(rasgos demográficos de los donantes, patrones de temporalidad de baja)
+	- Analizar los datos en SQL<br>
+	- Crear una visualización de captación de fondos(rasgos demográficos de los donantes, patrones de temporalidad de baja)<br>
 <br>
 
 Aquí muestro la base de datos de relaciones entre entidades:
@@ -51,7 +51,7 @@ ORDER BY Date_per_year DESC;
 <br>
 
 <p align="center">
-    <kbd> <img width="400" alt="jkhjk" src="https://github.com/litahu/Data-Analytics-in-SQL-de-Potenciar-Solidario/blob/main/assets/hom3_1.JPG"> </kbd> <br>
+    <kbd> <img width="300" alt="jkhjk" src="https://github.com/litahu/Data-Analytics-in-SQL-de-Potenciar-Solidario/blob/main/assets/hom3_1.JPG"> </kbd> <br>
     Query 1 — Promedio de ingresos por año 
 </p>
 <br>
@@ -72,7 +72,7 @@ ORDER BY Year_fundation DESC;
 <br>
 
 <p align="center">
-    <kbd> <img width="400" alt="jkhjk" src="https://github.com/litahu/Data-Analytics-in-SQL-de-Potenciar-Solidario/blob/main/assets/hom3_2.JPG"> </kbd> <br>
+    <kbd> <img width="300" alt="jkhjk" src="https://github.com/litahu/Data-Analytics-in-SQL-de-Potenciar-Solidario/blob/main/assets/hom3_2.JPG"> </kbd> <br>
     Query 2 — Promedio de los gastos por año
 </p>
 <br>
@@ -120,7 +120,7 @@ INNER JOIN d_categ_proveedor AS c
 ON p.Id_categoria = c.Id_categoria
 INNER JOIN f_egreso as e
 ON  p.Id_proveedor= e.Id_proveedor
-WHERE e.Importe >(SELECT avg(Importe) FROM f_egreso	WHERE year(Fecha)= 2024)
+WHERE e.Importe >(SELECT avg(Importe) FROM f_egreso WHERE year(Fecha)= 2024)
 LIMIT 10;
 ```  
 
