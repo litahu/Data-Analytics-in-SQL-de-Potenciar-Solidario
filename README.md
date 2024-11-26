@@ -19,13 +19,11 @@ Crear una visualización de captación de fondos(rasgos demográficos de los don
 
 Aquí muestro la base de datos de relaciones entre entidades
 <br>
-<details>
-  
+
 <p align="center">
-  <kbd> <img width="400" alt="eer" src="https://github.com/litahu/Data-Analytics-in-SQL-de-Potenciar-Solidario/blob/main/assets/hom_DER.png"></kbd> <br>
+  <kbd> <img width="1000" alt="eer" src="https://github.com/litahu/Data-Analytics-in-SQL-de-Potenciar-Solidario/blob/main/assets/hom_DER.png"></kbd> <br>
 </p>
 
-</details>
 <br>
 
 ## 📂 Analisis de datos en SQL
@@ -47,7 +45,7 @@ ORDER BY Date_per_year DESC;
 <br>
 
 <p align="center">
-    <kbd> <img width="1000" alt="jkhjk" src="https://github.com/litahu/Data-Analytics-in-SQL-de-Potenciar-Solidario/blob/main/assets/hom3_1.JPG"> </kbd> <br>
+    <kbd> <img width="400" alt="jkhjk" src="https://github.com/litahu/Data-Analytics-in-SQL-de-Potenciar-Solidario/blob/main/assets/hom3_1.JPG"> </kbd> <br>
     Imagen 1 — Promedio de ingresos por año 
 </p>
 <br>
