@@ -8,19 +8,17 @@ Certificado: Fundamentos de Datos - [Ver certificado]
 
 ## 📂 Comprensión empresarial
 
-**Descripción del problema** 
-
+**Descripción del problema** <br>
 Potenciar Solidario es una fundación sin ánimo de lucro que brinda cuatro proyectos sociales(potenciar rumbo, potenciar gestión, potenciar redes y potenciar dignidad) asequibles, integrales y de largo plazo. Uno de los problemas que presenta esta fundación es que los donantes se dan de baja o no son frecuentes con su aporte. Si la fundación experimenta este problema, tendrá que restringir sus actividades altruistas
 <br>
 
 **Meta** <br>
 Aumentar la captación de fondos a $ 45 000000 por medio del refuerzo de su canal institucional(empresas y fundaciones) e individuos
-
 <br>
 
 **Objetivos del proyecto** <br> 
-- Analizar los datos en SQL
-- Crear una visualización de captación de fondos(rasgos demográficos de los donantes, patrones de temporalidad de baja)
+	- Analizar los datos en SQL
+	- Crear una visualización de captación de fondos(rasgos demográficos de los donantes, patrones de temporalidad de baja)
 <br>
 
 Aquí muestro la base de datos de relaciones entre entidades:
@@ -75,7 +73,7 @@ ORDER BY Year_fundation DESC;
 
 <p align="center">
     <kbd> <img width="400" alt="jkhjk" src="https://github.com/litahu/Data-Analytics-in-SQL-de-Potenciar-Solidario/blob/main/assets/hom3_2.JPG"> </kbd> <br>
-    Query 1 — Promedio de los gastos por año
+    Query 2 — Promedio de los gastos por año
 </p>
 <br>
 
@@ -104,7 +102,7 @@ LIMIT 10;
 
 <p align="center">
     <kbd> <img width="400" alt="jkhjk" src="https://github.com/litahu/Data-Analytics-in-SQL-de-Potenciar-Solidario/blob/main/assets/hom3_3.JPG"> </kbd> <br>
-    Query 1 — Donantes en riesgo 
+    Query 3 — Donantes en riesgo 
 </p>
 <br>
 
@@ -131,7 +129,7 @@ LIMIT 10;
 
 <p align="center">
     <kbd> <img width="400" alt="jkhjk" src="https://github.com/litahu/Data-Analytics-in-SQL-de-Potenciar-Solidario/blob/main/assets/hom3_4.JPG"> </kbd> <br>
-    Query 1 — Identificación de proveedor por categoría de los gastos más altos
+    Query 4 — Identificación de proveedor por categoría de los gastos más altos
 </p>
 <br>
 
