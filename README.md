@@ -5,23 +5,27 @@ Certificado: Fundamentos de Datos - [Ver certificado]
 <br>
 
 ---
+
 ## 📂 Comprensión empresarial
 
 **Descripción del problema**
-
 Potenciar Solidario es una fundación sin ánimo de lucro que brinda cuatro proyectos sociales(potenciar rumbo, potenciar gestión, potenciar redes y potenciar dignidad) asequibles, integrales y de largo plazo. Uno de los problemas que presenta esta fundación es que los donantes se dan de baja o no son frecuentes con su aporte. Si la fundación experimenta este problema, tendrá que restringir sus actividades altruistas
+
 <br>
 
 **Meta**
 Aumentar la captación de fondos a 45000000 por medio del refuerzo de su canal institucional(empresas y fundaciones) e individuos
+
 <br>
 
 **Objetivos del proyecto**
-Analizar los datos en SQL
-Crear una visualización de captación de fondos(rasgos demográficos de los donantes, patrones de temporalidad de baja)
+- Analizar los datos en SQL
+- Crear una visualización de captación de fondos(rasgos demográficos de los donantes, patrones de temporalidad de baja)
+
 <br>
 
 Aquí muestro la base de datos de relaciones entre entidades:
+
 <br>
 
 <p align="center">
@@ -31,12 +35,15 @@ Aquí muestro la base de datos de relaciones entre entidades:
 
 <br>
 
+---
+
 ## 📂 Análisis de datos en SQL
 
 1.¿Cuál es el promedio del importe de los donantes por año?
 <details>
   <summary> Haga clic para ver la consulta </summary>
     <br> 
+
 ```sql
 SELECT round(avg(Importe)),  year(Fecha) AS Date_per_year
 FROM f_ingreso
@@ -57,6 +64,7 @@ ORDER BY Date_per_year DESC;
 <details>
   <summary> Haga clic para ver la consulta </summary>
     <br> 
+
 ```sql
 SELECT round(avg(Importe)), year(Fecha) AS Year_fundation
 FROM f_egreso
@@ -80,6 +88,7 @@ y el estado del donante que cumplan son esa condición. Ordenar por su importe
 <details>
   <summary> Haga clic para ver la consulta </summary>
     <br> 
+
 ```sql
 SELECT d.Nombre, e.Estado_donante, i.Importe
 FROM f_donante AS d
@@ -107,6 +116,7 @@ a cada uno. Ordenar en forma descendente
 <details>
   <summary> Haga clic para ver la consulta </summary>
     <br> 
+
 ```sql
 SELECT p.Nombre, e.Importe, c.Categoria
 FROM f_proveedor AS p
