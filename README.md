@@ -140,21 +140,21 @@ Por lo tanto, es importante identificar a los donantes que presentan este tipo d
 <br>
 
 <p align="center">
-  <kbd> <img width="500" alt="eer" src="https://github.com/litahu/Data-Analytics-in-SQL-de-Potenciar-Solidario/blob/main/assets/hom3_6.JPG"></kbd> <br>
+  <kbd> <img width="700" alt="eer" src="https://github.com/litahu/Data-Analytics-in-SQL-de-Potenciar-Solidario/blob/main/assets/hom3_6.JPG"></kbd> <br>
 </p>
 
 <br>
 <br>
 
 <p align="center">
-  <kbd> <img width="500" alt="eer" src="https://github.com/litahu/Data-Analytics-in-SQL-de-Potenciar-Solidario/blob/main/assets/hom3_7.JPG"></kbd> <br>
+  <kbd> <img width="700" alt="eer" src="https://github.com/litahu/Data-Analytics-in-SQL-de-Potenciar-Solidario/blob/main/assets/hom3_7.JPG"></kbd> <br>
 </p>
 
 <br>
 <br>
 
 <p align="center">
-  <kbd> <img width="500" alt="eer" src="https://github.com/litahu/Data-Analytics-in-SQL-de-Potenciar-Solidario/blob/main/assets/hom3_8.JPG"></kbd> <br>
+  <kbd> <img width="700" alt="eer" src="https://github.com/litahu/Data-Analytics-in-SQL-de-Potenciar-Solidario/blob/main/assets/hom3_8.JPG"></kbd> <br>
 </p>
 
 <br>
