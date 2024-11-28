@@ -1,6 +1,6 @@
 # 🎫 **Reporte de captación de fondos de una ONG**
 Herramienta: MySQL Workbench - [Ver script](https://github.com/litahu/Data-Analytics-in-SQL-de-Potenciar-Solidario/blob/main/fundacion_potenciar_script.sql) <br>
-Visualización: Power BI - [Ver panel] <br> 
+Visualización: Power BI - [Ver panel](https://github.com/litahu/Data-Analytics-in-SQL-de-Potenciar-Solidario/tree/main#-Visualización-de-datos) <br> 
 Certificado: Fundamentos de Datos - [Ver certificado]
 <br>
 
@@ -137,8 +137,27 @@ LIMIT 10;
 ## 📂 Visualización de datos
 
 Por lo tanto, es importante identificar a los donantes que presentan este tipo de problema y sus causas. En efecto, realicé un panel de control para la fundación de tal forma que la ONG pueda establecer una estrategia para fidelizar a sus donantes.
+<br>
 
+<p align="center">
+  <kbd> <img width="500" alt="eer" src="https://github.com/litahu/Data-Analytics-in-SQL-de-Potenciar-Solidario/blob/main/assets/hom3_6.JPG"></kbd> <br>
+</p>
 
+<br>
+<br>
+
+<p align="center">
+  <kbd> <img width="500" alt="eer" src="https://github.com/litahu/Data-Analytics-in-SQL-de-Potenciar-Solidario/blob/main/assets/hom3_7.JPG"></kbd> <br>
+</p>
+
+<br>
+<br>
+
+<p align="center">
+  <kbd> <img width="500" alt="eer" src="https://github.com/litahu/Data-Analytics-in-SQL-de-Potenciar-Solidario/blob/main/assets/hom3_8.JPG"></kbd> <br>
+</p>
+
+<br>
 
 
 
