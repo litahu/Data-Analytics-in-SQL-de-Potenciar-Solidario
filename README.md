@@ -158,9 +158,12 @@ Por lo tanto, es importante identificar a los donantes que presentan este tipo d
 </p>
 
 <br>
+
+---
+
 ## 💖 Agradecimientos
 
-A Guayerd, por darme la oportunidad de desempeñarme como pasante en el rol de analista de datos en la fundación 'Potenciar Solidario'. El programa 'Analytics Fundamental' que me ofrecieron fue clave para acelerar mi aprendizaje y consolidar mis habilidades en análisis, gestión de sistemas y visualización de datos.
+A Guayerd, por darme la oportunidad de desempeñarme como pasante en el rol de analista de datos en la fundación 'Potenciar Solidario'. El programa 'Analytics Fundamental' que me ofrecieron fue clave para acelerar mi aprendizaje y consolidar mis habilidades en análisis, gestión de sistemas y visualización de datos.<br>
 
 ¡Animosa por transformar el mundo a través del poder de los datos! 😊
 
