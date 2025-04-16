@@ -133,6 +133,7 @@ LIMIT 10;
 </p>
 <br>
 
+---
 
 ## 📂 Visualización de datos
 
