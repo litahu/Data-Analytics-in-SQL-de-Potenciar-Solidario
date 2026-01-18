@@ -1,7 +1,7 @@
 # 🎫 **Reporte de captación de fondos de una ONG**
 Herramienta: MySQL Workbench - [Ver script](https://github.com/litahu/Data-Analytics-in-SQL-de-Potenciar-Solidario/blob/main/fundacion_potenciar_script.sql) <br>
-Visualización: Power BI - [Ver panel](https://github.com/litahu/Data-Analytics-in-SQL-de-Potenciar-Solidario/tree/main#-Visualización-de-datos) <br> 
-Certificado: Fundamentos de Datos - [Ver certificado]
+Visualización: Power BI - [Ver panel](https://github.com/litahu/Data-Analytics-in-SQL-de-Potenciar-Solidario/blob/main/potenciar_sprint3.pbix) & Looker Studio - [Ver panel](https://lookerstudio.google.com/s/mVJE6c-Xkls)  <br> 
+
 <br>
 
 ---
@@ -140,6 +140,7 @@ LIMIT 10;
 Por lo tanto, es importante identificar a los donantes que presentan este tipo de problema y sus causas. En efecto, realicé un panel de control para la fundación de tal forma que la ONG pueda establecer una estrategia para fidelizar a sus donantes. [Descargar panel](https://github.com/litahu/Data-Analytics-in-SQL-de-Potenciar-Solidario/blob/main/potenciar_sprint3.pbix)
 <br>
 
+#### Panel de control en Power BI:
 <p align="center">
   <kbd> <img width="800" alt="eer" src="https://github.com/litahu/Data-Analytics-in-SQL-de-Potenciar-Solidario/blob/main/assets/hom3_6.JPG"></kbd> <br>
 </p>
@@ -160,6 +161,28 @@ Por lo tanto, es importante identificar a los donantes que presentan este tipo d
 
 <br>
 
+#### Panel de control en Looker Studio:
+<br>
+
+<p align="center">
+  <kbd> <img width="700" alt="eer" src="https://github.com/litahu/Data-Analytics-in-SQL-de-Potenciar-Solidario/blob/main/assets/0_looker_potenciar.PNG"></kbd> <br>
+</p>
+
+<br>
+<br>
+
+<p align="center">
+  <kbd> <img width="700" alt="eer" src="https://github.com/litahu/Data-Analytics-in-SQL-de-Potenciar-Solidario/blob/main/assets/1_looker_potenciar.PNG"></kbd> <br>
+</p>
+
+<br>
+<br>
+
+<p align="center">
+  <kbd> <img width="700" alt="eer" src="https://github.com/litahu/Data-Analytics-in-SQL-de-Potenciar-Solidario/blob/main/assets/2_looker_potenciar.PNG"></kbd> <br>
+</p>
+
+<br>
 ---
 
 ## 💖 Agradecimientos
