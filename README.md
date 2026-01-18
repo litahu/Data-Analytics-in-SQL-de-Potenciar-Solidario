@@ -137,13 +137,18 @@ LIMIT 10;
 
 ## 📂 Visualización de datos
 
-Por lo tanto, es importante identificar a los donantes que presentan este tipo de problema y sus causas. En efecto, realicé un panel de control para la fundación de tal forma que la ONG pueda establecer una estrategia para fidelizar a sus donantes. [Descargar panel](https://github.com/litahu/Data-Analytics-in-SQL-de-Potenciar-Solidario/blob/main/potenciar_sprint3.pbix)
+Por lo tanto, es importante identificar a los donantes que presentan este tipo de problema y sus causas. En efecto, realicé un panel de control para la fundación de tal forma que la ONG pueda establecer una estrategia para fidelizar a sus donantes.
 <br>
 <br>
 
-#### Panel de control en Power BI[Ver panel](https://github.com/litahu/Data-Analytics-in-SQL-de-Potenciar-Solidario/blob/main/potenciar_sprint3.pbix):
+#### Panel de control en Power BI:
+
 <p align="center">
-  <kbd> <img width="800" alt="eer" src="https://github.com/litahu/Data-Analytics-in-SQL-de-Potenciar-Solidario/blob/main/assets/hom3_6.JPG"></kbd> <br>
+  <a href="https://github.com/litahu/Data-Analytics-in-SQL-de-Potenciar-Solidario/blob/main/potenciar_sprint3.pbix" style="font-size:18px; font-weight:bold;">🔗 Ver panel</a>
+</p>
+
+<p align="center">
+  <kbd> <img width="700" alt="eer" src="https://github.com/litahu/Data-Analytics-in-SQL-de-Potenciar-Solidario/blob/main/assets/hom3_6.JPG"></kbd> <br>
 </p>
 
 <br>
@@ -162,13 +167,15 @@ Por lo tanto, es importante identificar a los donantes que presentan este tipo d
 
 <br>
 
-#### Panel de control en Looker Studio [Ver panel](https://lookerstudio.google.com/s/mVJE6c-Xkls):
-<br>
+#### Panel de control en Looker Studio:
+
+<p align="center">
+  <a href="https://lookerstudio.google.com/s/mVJE6c-Xkls" style="font-size:18px; font-weight:bold;">🔗 Ver panel</a>
+</p>
 
 <p align="center">
   <kbd> <img width="700" alt="eer" src="https://github.com/litahu/Data-Analytics-in-SQL-de-Potenciar-Solidario/blob/main/assets/0_looker_potenciar.PNG"></kbd> <br>
 </p>
-
 <br>
 <br>
 
